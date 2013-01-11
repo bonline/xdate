@@ -12,6 +12,8 @@
  *
  */
 
+define(function (require) {
+
 var XDate = (function(Date, Math, Array, undefined) {
 
 
@@ -800,3 +802,7 @@ if (typeof module !== 'undefined' && module.exports) {
 return XDate;
 
 })(Date, Math, Array);
+
+return XDate;
+
+});
