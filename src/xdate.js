@@ -12,7 +12,7 @@
  *
  */
 
-define(function (require) {
+define(['require'],function(require) {
 
 var XDate = (function(Date, Math, Array, undefined) {
 
